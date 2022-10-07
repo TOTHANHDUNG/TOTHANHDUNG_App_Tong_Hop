@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_Activity"
+    android:orientation="vertical"
+    android:background="#ded1bd ">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_menu"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_yody"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/img_sh"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/style_back"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="SALE"
+            android:textColor="#f6e9d7"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/shirt_jean"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_heart"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:text="SHIRT JEAN"
+                android:textColor="#683b2b "
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:text="LOOK GOOD.GOOD FEEL"
+                android:textColor="#683b2b " />
+        </LinearLayout>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_star"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Young plaid weave, tight-fitting shape"
+            android:textSize="16dp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A super youthful design, personality for women"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail"
+            android:textSize="25dp"
+            android:textColor="#683b2b "
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dimension:H:47,5xW:31xD:15 cm"
+            android:textSize="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight: 40kg"
+            android:textSize="16dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height:1m60"
+            android:textSize="16dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp"
+            android:background="#FAF8F8"
+            >
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reviews 39"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#683b2b "/>
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_feedback"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/style_border_tien_detail"
+                android:gravity="center"
+                android:text="6.49$"
+                android:textColor="#683b2b "
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/style_add_to_cart"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center"
+                android:text="+ Add to cart"
+                android:textColor="#fff"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
